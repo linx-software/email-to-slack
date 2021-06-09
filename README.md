@@ -82,7 +82,7 @@ Accept: application/x-www-form-urlencoded , application/json
 ```
 ---
 
-## Slack Utilities samples 
+## Slack Utilities Samples 
 ### AuthorizationTest
 A function to test if you've entered the right token and the right channel.  Tests the api https://slack.com/api/auth.test.
 ### BuildSampleBlock
