@@ -116,7 +116,7 @@ Gets the Channel's name.
 ### PostMessageToSlack ###
 - In the Demo Folder, click on the function named PostMessageToSlack to post to a channel.  
 - Parameters
-      -`Header Text` : Text to be displayed as header 
-      -`Section Text`: Text to be displayed in section 
-      -`ChannelId`: Channel Id
+     - `Header Text` : Text to be displayed as header 
+     - `Section Text`: Text to be displayed in section 
+     - `ChannelId`: Channel Id
 
