@@ -5,9 +5,10 @@
 The provided sample includes:
 - Get a bot user token in Slack
 - Get a list of channels in a Slack Team
-- Post formatted messages to Slack in different channels using Bot User . 
+- Post formatted messages to Slack in different channels using Bot User. 
+- Post email notifications from Gmail to Slack as messages. The sample Solution sends out emails' summary in formatted messages to Slack from your configured Gmail account. You can post messages to any channel you want to alert containing the information concerning the mails you want to pass on.
 
-This sample shows how Linx automatically post formatted messages to Slack.
+This sample shows how Linx automatically reads emails from GMail and post formatted messages to Slack.
 Once this Slack integration is active, the sample posts messages to Slack Channel. 
 
 ---
@@ -18,6 +19,7 @@ Once this Slack integration is active, the sample posts messages to Slack Channe
 - [Test apis from browser](https://api.slack.com/methods/chat.postMessage/test)
 - [Slack reference for block kit](https://api.slack.com/reference/block-kit)
 - [How to find your Channel Id in Slack](https://stackoverflow.com/questions/40940327/what-is-the-simplest-way-to-find-a-slack-team-id-and-a-channel-id) 
+- [How to use the ReadEmail plugin from Linx](https://linx.software/docs/reference/plugins/email/content/reademail/?utm_source=linx&utm_medium=designer&utm_campaign=help)
 ---
 
 ## Dependencies
@@ -26,6 +28,7 @@ Once this Slack integration is active, the sample posts messages to Slack Channe
 
 - Linx Designer
 - Slack account
+- Gmail account
 
 ### Linx Designer
 
@@ -68,6 +71,30 @@ This solution was developed in the Linx Designer `v5.21.0.0`
 3. `SlackUri` : Slack API Url.  
        
 ---
+#### Configure the Solution's $.Settings with your email details :
+
+> [Linx email configuration](https://linx.software/docs/reference/plugins/email/content/reademail/?utm_source=linx&utm_medium=designer&utm_campaign=help) will help you get started with email plugin in Linx.
+####  Steps to create an App password
+1. Go to the Google Account section
+2. Select Security
+3. Make sure 2-Step Verification is switched 'On'
+4. Select App passwords
+5. Verify yourself
+6. Select 'Other'
+7. Provide a name (e.g. Linx)
+8. Click Generate
+9. The password that you have to use in Linx will display
+
+Note: After setting up your App password, you can switch 2-Step Verification 'Off' again.
+
+> _This sample was setup using a Gmail instance._
+
+1. `GmailUserName:` Username of your email account.
+2. `GmailPassword:` App password.
+
+The sample GMail Read function properties are configured as follows:
+1. `Mark as read`: True
+2. `Only unread items`: True
 
 ## Using the sample
 
@@ -119,4 +146,5 @@ Gets the Channel's name.
      - `Header Text` : Text to be displayed as header 
      - `Section Text`: Text to be displayed in section 
      - `ChannelId`: Channel Id
-
+### PostEmailContentsToSlack
+- In the Demo Folder, Click on the function named PostEmailContentsToSlack. Only unread items will be read, and messages containing the From, Subject, Date will be sent to Slack.  The default channel is General.
