@@ -1,6 +1,6 @@
 # Slack - DevOps Management
 
-## Overview
+## Description
 
 The provided sample includes:
 - Get a bot user token in Slack
@@ -22,7 +22,7 @@ Once this Slack integration is active, the sample posts messages to Slack Channe
 - [How to use the ReadEmail plugin from Linx](https://linx.software/docs/reference/plugins/email/content/reademail/?utm_source=linx&utm_medium=designer&utm_campaign=help)
 ---
 
-## Dependencies
+## Installation
 
 ### Pre-requisites
 
@@ -35,7 +35,7 @@ Once this Slack integration is active, the sample posts messages to Slack Channe
 This solution was developed in the Linx Designer `v5.21.0.0`
 
 ---
-## Setting up the sample
+
 #### Get a bot user token from Slack
 1. [Create a new app](https://api.slack.com/apps)
 2. Choose from Scratch.  
@@ -96,7 +96,7 @@ The sample GMail Read function properties are configured as follows:
 1. `Mark as read`: True
 2. `Only unread items`: True
 
-## Using the sample
+## Usage
 
 ### Authentication for Slack
 
