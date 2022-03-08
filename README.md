@@ -111,7 +111,7 @@ Accept: application/x-www-form-urlencoded , application/json
 
 ## Slack Utilities Samples 
 ### AuthorizationTest
-A function to test if you've entered the right token and the right channel.  Tests the api https://slack.com/api/auth.test.
+A function to test if you've entered the right token and the right channel.  Tests the api https://api.slack.com/methods/auth.test/test
 ### BuildSampleBlock
 - Parameters:
     - `HeaderText` :  string type. 
