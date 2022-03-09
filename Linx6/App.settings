@@ -9,7 +9,7 @@
     "Id": "dN6Y",
     "Name": "GmailUserName",
     "Type": "Compiled:String",
-    "Value": "hothouseissue@gmail.com"
+    "Value": ""
   },
   {
     "Id": "MGZj",
@@ -21,7 +21,7 @@
     "Id": "cRJp",
     "Name": "SlackBotUserOAuth",
     "Type": "Compiled:String",
-    "Secret": true
+    "Value": ""
   },
   {
     "Id": "wB8q",
