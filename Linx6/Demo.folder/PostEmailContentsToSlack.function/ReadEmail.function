@@ -1,0 +1,155 @@
+{
+  "ExecutionPaths": [
+    {
+      "PluginId": "Mail",
+      "Name": "Mail",
+      "Result": "List:Generated:kQ9P",
+      "Order": 0,
+      "IterationHint": "ZeroOrMore"
+    }
+  ],
+  "Properties": [
+    {
+      "Id": "Protocol",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Email.ReadEmail.EmailProtocol, Twenty57.Linx.Plugins.Email, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": "Imap"
+    },
+    {
+      "Id": "User name",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Settings.GmailUserName",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Filter body",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": ""
+    },
+    {
+      "Id": "Port",
+      "Type": "Compiled:Int32",
+      "ValueUsage": "RuntimeRead",
+      "Value": 993
+    },
+    {
+      "Id": "Server name",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": "imap.gmail.com"
+    },
+    {
+      "Id": "Save email",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "DesignTime",
+      "Value": false
+    },
+    {
+      "Id": "Filter to",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": ""
+    },
+    {
+      "Id": "Use SSL",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "DesignTime",
+      "Value": true
+    },
+    {
+      "Id": "Filter cc",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": ""
+    },
+    {
+      "Id": "Filter from address",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": ""
+    },
+    {
+      "Id": "Folder",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": "Inbox"
+    },
+    {
+      "Id": "Delete after read",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "DesignTime",
+      "Value": false
+    },
+    {
+      "Id": "Authentication",
+      "Type": "Compiled:EAGetMail.ServerAuthType, EAGetMail, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e10a0812eb29cf94",
+      "ValueUsage": "DesignTime",
+      "Value": "AuthLogin"
+    },
+    {
+      "Id": "Attachment options",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Email.ReadEmail.AttachmentOptions, Twenty57.Linx.Plugins.Email, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": "None"
+    },
+    {
+      "Id": "Body as HTML",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "DesignTime",
+      "Value": false
+    },
+    {
+      "Id": "Move to folder",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": ""
+    },
+    {
+      "Id": "Mark as read",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "DesignTime",
+      "Value": true
+    },
+    {
+      "Id": "Only unread items",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "DesignTime",
+      "Value": true
+    },
+    {
+      "Id": "Filter option",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Email.ReadEmail.FilterType, Twenty57.Linx.Plugins.Email, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": "And"
+    },
+    {
+      "Id": "Filter subject",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": ""
+    },
+    {
+      "Id": "Filter from",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": ""
+    },
+    {
+      "Id": "Password",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Settings.GmailPassword",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Custom:Blz1",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"Body\":{\"LinxExpression\":\"[PARSED]\"}, \"FilePath\":{\"LinxExpression\":\"[PARSED]\"}, \"From\":{\"LinxExpression\":\"[PARSED]\"}, \"FromAddress\":{\"LinxExpression\":\"[PARSED]\"}, \"Subject\":{\"LinxExpression\":\"[PARSED]\"}, \"TimeSent\":{\"LinxExpression\":\"[PARSED]\"}, \"To\":{\"LinxExpression\":\"[PARSED]\"}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "Body"
+            ],
+            "expression": {
+              "Expression": "ReadEmail.Mail.Body",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "FilePath"
+            ],
+            "expression": {
+              "Expression": "ReadEmail.Mail.FilePath",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "From"
+            ],
+            "expression": {
+              "Expression": "ReadEmail.Mail.From",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "FromAddress"
+            ],
+            "expression": {
+              "Expression": "ReadEmail.Mail.FromAddress",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "Subject"
+            ],
+            "expression": {
+              "Expression": "ReadEmail.Mail.Subject",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "TimeSent"
+            ],
+            "expression": {
+              "Expression": "ReadEmail.Mail.TimeSent",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:DateTime"
+            }
+          },
+          {
+            "typePath": [
+              "To"
+            ],
+            "expression": {
+              "Expression": "ReadEmail.Mail.To",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    },
+    {
+      "Id": "Type",
+      "Type": "Compiled:Linx.ITypeReference",
+      "ValueUsage": "DesignTime",
+      "Value": "Custom:Blz1",
+      "ValueType": "Linx.ValidCustomTypeReference"
+    }
+  ],
+  "Result": "Custom:Blz1"
+}

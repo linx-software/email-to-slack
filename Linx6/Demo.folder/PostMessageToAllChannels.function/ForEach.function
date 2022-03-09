@@ -1,0 +1,24 @@
+{
+  "ExecutionPaths": [
+    {
+      "PluginId": "Loop",
+      "Name": "Loop",
+      "Result": "List:Custom:0Yfv",
+      "Order": 0,
+      "IterationHint": "ZeroOrMore"
+    }
+  ],
+  "Properties": [
+    {
+      "Id": "List",
+      "Type": "List:Custom:0Yfv",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "GetChannels",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:0Yfv"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}
