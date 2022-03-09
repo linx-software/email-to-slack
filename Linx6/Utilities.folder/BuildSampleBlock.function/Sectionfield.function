@@ -1,0 +1,33 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Custom:z54h",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"type\":\"section\", \"text\":{\"LinxExpression\":\"[PARSED]\"}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "text"
+            ],
+            "expression": {
+              "Expression": "SectionText",
+              "CompiledExpression": "={0}",
+              "Type": "Custom:iLMa"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    },
+    {
+      "Id": "Type",
+      "Type": "Compiled:Linx.ITypeReference",
+      "ValueUsage": "DesignTime",
+      "Value": "Custom:z54h",
+      "ValueType": "Linx.ValidCustomTypeReference"
+    }
+  ],
+  "Result": "Custom:z54h"
+}

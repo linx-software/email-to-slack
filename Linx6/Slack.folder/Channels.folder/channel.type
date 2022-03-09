@@ -1,0 +1,21 @@
+{
+  "Id": "qwhl",
+  "Name": "channel",
+  "Properties": [
+    {
+      "Id": "5h6j",
+      "Name": "ok",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "XW0f",
+      "Name": "channels",
+      "Type": "List:Custom:0Yfv"
+    },
+    {
+      "Id": "7JhL",
+      "Name": "response_metadata",
+      "Type": "Custom:Y5TN"
+    }
+  ]
+}

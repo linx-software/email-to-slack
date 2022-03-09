@@ -1,0 +1,36 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "List:Custom:qwhl",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "[{\"LinxExpression\":\"[PARSED]\"}]",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "[]"
+            ],
+            "expression": {
+              "Expression": "CallRESTEndpoint.ResponseBody",
+              "CompiledExpression": "={0}",
+              "Type": "Custom:qwhl"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "List:Custom:qwhl",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:qwhl"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

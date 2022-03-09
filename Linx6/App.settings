@@ -1,0 +1,38 @@
+[
+  {
+    "Id": "7KqO",
+    "Name": "GmailPassword",
+    "Type": "Compiled:String",
+    "Value": "arwwbnjtaxkoemxp"
+  },
+  {
+    "Id": "dN6Y",
+    "Name": "GmailUserName",
+    "Type": "Compiled:String",
+    "Value": "hothouseissue@gmail.com"
+  },
+  {
+    "Id": "MGZj",
+    "Name": "JSONSampleFile",
+    "Type": "Compiled:String",
+    "Value": "{RootPath}JSONSample.txt"
+  },
+  {
+    "Id": "cRJp",
+    "Name": "SlackBotUserOAuth",
+    "Type": "Compiled:String",
+    "Value": "xoxp-684202237267-697747869910-3200960162598-a0046a7f98991fbc2f402ad712247c66"
+  },
+  {
+    "Id": "wB8q",
+    "Name": "SlackUri",
+    "Type": "Compiled:String",
+    "Value": "https://slack.com/api/"
+  },
+  {
+    "Id": "P7eM",
+    "Name": "RootPath",
+    "Type": "Compiled:String",
+    "Value": "C:\\Work\\slack\\"
+  }
+]
