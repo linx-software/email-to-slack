@@ -6,8 +6,8 @@
       "ValueUsage": "RuntimeRead",
       "Value": {
         "Expression": "GetChannels.Where(channel => channel.name_normalized.ToLower() ==  $.Parameters.ChannelNameNormalized.ToLower()).FirstOrDefault()",
-        "CompiledExpression": "={1}.Where(channel => channel.name_normalized.ToLower() ==  {0}.ToLower()).FirstOrDefault()",
-        "ErrorMessage": "'Generated_Slack_46Channels_46channel_qwhl' does not contain a definition for 'name_normalized' and no accessible extension method 'name_normalized' accepting a first argument of type 'Generated_Slack_46Channels_46channel_qwhl' could be found (are you missing a using directive or an assembly reference?)"
+        "CompiledExpression": "={1}.Where(channel=>channel.name_normalized.ToLower()=={0}.ToLower()).FirstOrDefault()",
+        "Type": "Custom:0Yfv"
       },
       "ValueType": "Linx.CSharpExpression"
     },

@@ -2,33 +2,23 @@
   "Properties": [
     {
       "Id": "Source",
-      "Type": "List:Custom:qwhl",
+      "Type": "List:Custom:0Yfv",
       "ValueUsage": "RuntimeRead",
       "Value": {
-        "ParsedExpression": "[{\"LinxExpression\":\"[PARSED]\"}]",
-        "ExpressionPlaceholders": [
-          {
-            "typePath": [
-              "[]"
-            ],
-            "expression": {
-              "Expression": "CallRESTEndpoint.ResponseBody",
-              "CompiledExpression": "={0}",
-              "Type": "Custom:qwhl"
-            }
-          }
-        ]
+        "Expression": "CallRESTEndpoint.ResponseBody.channels",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:0Yfv"
       },
-      "ValueType": "Linx.JsonExpression"
+      "ValueType": "Linx.CSharpExpression"
     },
     {
       "Id": "Target",
-      "Type": "List:Custom:qwhl",
+      "Type": "List:Custom:0Yfv",
       "ValueUsage": "RuntimeWrite",
       "Value": {
         "Expression": "$.Result",
         "CompiledExpression": "={0}",
-        "Type": "List:Custom:qwhl"
+        "Type": "List:Custom:0Yfv"
       },
       "ValueType": "Linx.CSharpExpression"
     }

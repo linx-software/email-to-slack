@@ -2,12 +2,12 @@
   {
     "Type": "Generated",
     "Value": {
-      "Id": "wpF0",
+      "Id": "Dnlt",
       "Properties": [
         {
           "Id": "ResponseHeaders",
           "Name": "ResponseHeaders",
-          "Type": "List:Generated:wwXp",
+          "Type": "List:Generated:Ml2g",
           "Access": "ReadWrite"
         },
         {
@@ -28,7 +28,7 @@
   {
     "Type": "Generated",
     "Value": {
-      "Id": "wwXp",
+      "Id": "Ml2g",
       "Properties": [
         {
           "Id": "Name",

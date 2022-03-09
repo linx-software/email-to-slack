@@ -3,7 +3,7 @@
     "Id": "7KqO",
     "Name": "GmailPassword",
     "Type": "Compiled:String",
-    "Value": "arwwbnjtaxkoemxp"
+    "Secret": true
   },
   {
     "Id": "dN6Y",
@@ -21,7 +21,7 @@
     "Id": "cRJp",
     "Name": "SlackBotUserOAuth",
     "Type": "Compiled:String",
-    "Value": "xoxp-684202237267-697747869910-3200960162598-a0046a7f98991fbc2f402ad712247c66"
+    "Secret": true
   },
   {
     "Id": "wB8q",
@@ -33,6 +33,6 @@
     "Id": "P7eM",
     "Name": "RootPath",
     "Type": "Compiled:String",
-    "Value": "C:\\Work\\slack\\"
+    "Value": "C:\\temp\\slack\\"
   }
 ]

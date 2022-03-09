@@ -4,8 +4,24 @@
       "Id": "Value",
       "Type": "Custom:C0la",
       "ValueUsage": "RuntimeRead",
-      "Value": "{}",
-      "ValueType": "String"
+      "Value": {
+        "ParsedExpression": "{\"blocks\":[{\"type\":\"\\\"\\\"\", \"text\":{\"LinxExpression\":\"[PARSED]\"}}]}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "blocks",
+              "[]",
+              "text"
+            ],
+            "expression": {
+              "Expression": "$.System.Null",
+              "CompiledExpression": "={0}",
+              "Type": null
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
     },
     {
       "Id": "Type",
