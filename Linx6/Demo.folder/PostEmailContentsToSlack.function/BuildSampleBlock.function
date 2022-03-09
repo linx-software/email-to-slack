@@ -29,7 +29,7 @@
       "Type": "Compiled:String",
       "ValueUsage": "RuntimeRead",
       "Value": {
-        "Expression": "email.Body",
+        "Expression": "email.FromAddress",
         "CompiledExpression": "={0}",
         "Type": "Compiled:String"
       },
