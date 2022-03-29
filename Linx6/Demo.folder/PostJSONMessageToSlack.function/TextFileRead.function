@@ -1,28 +1,44 @@
 {
+  "ExecutionPaths": [
+    {
+      "PluginId": "ForEachLine",
+      "Name": "ForEachLine",
+      "Result": "Generated:1M2q",
+      "Order": 0,
+      "IterationHint": "ZeroOrMore"
+    }
+  ],
   "Properties": [
     {
-      "Id": "File path",
-      "Type": "Compiled:String",
-      "ValueUsage": "RuntimeRead",
-      "Value": {
-        "Expression": "$.Settings.JSONSampleFile",
-        "CompiledExpression": "={0}",
-        "Type": "Compiled:String"
-      },
-      "ValueType": "Linx.CSharpExpression"
-    },
-    {
-      "Id": "Codepage",
-      "Type": "Compiled:Twenty57.Linx.Plugins.File.Common.FileReadWrite.TextCodepage, Twenty57.Linx.Plugins.File, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null",
+      "Id": "Encoding",
+      "Type": "Compiled:Twenty57.Linx.Plugins.File.Common.FileReadWrite.Encoding, Twenty57.Linx.Plugins.File, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
       "ValueUsage": "DesignTime",
       "Value": "Default"
     },
     {
-      "Id": "Return options",
-      "Type": "Compiled:Twenty57.Linx.Plugins.File.TextFileRead.FileReadOptions, Twenty57.Linx.Plugins.File, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null",
+      "Id": "Fields",
+      "Type": "Compiled:Twenty57.Linx.Plugins.File.TextFileRead.TextFileReaderFields, Twenty57.Linx.Plugins.File, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
       "ValueUsage": "DesignTime",
-      "Value": "Complete"
+      "Value": {
+        "SkipHeaderLines": 0,
+        "SkipFooterLines": 0,
+        "FileFormat": "CommaDelimited",
+        "TextQualifier": "None",
+        "OtherDelimiter": "",
+        "FieldList": []
+      }
+    },
+    {
+      "Id": "File path",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": ""
+    },
+    {
+      "Id": "Return options",
+      "Type": "Compiled:Twenty57.Linx.Plugins.File.TextFileRead.FileReadOptions, Twenty57.Linx.Plugins.File, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": "LineByLine"
     }
-  ],
-  "Result": "Compiled:String"
+  ]
 }

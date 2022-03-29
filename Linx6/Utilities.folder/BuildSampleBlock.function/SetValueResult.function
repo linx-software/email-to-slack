@@ -1,17 +1,6 @@
 {
   "Properties": [
     {
-      "Id": "Target",
-      "Type": "Compiled:String",
-      "ValueUsage": "RuntimeWrite",
-      "Value": {
-        "Expression": "$.Result",
-        "CompiledExpression": "={0}",
-        "Type": "Compiled:String"
-      },
-      "ValueType": "Linx.CSharpExpression"
-    },
-    {
       "Id": "Source",
       "Type": "Compiled:String",
       "ValueUsage": "RuntimeRead",
@@ -19,6 +8,17 @@
         "Expression": "block.blocks",
         "CompiledExpression": "={0}",
         "Type": "List:Custom:z54h"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
       },
       "ValueType": "Linx.CSharpExpression"
     }

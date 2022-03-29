@@ -1,17 +1,6 @@
 {
   "Properties": [
     {
-      "Id": "V3wf",
-      "Type": "Compiled:String",
-      "ValueUsage": "RuntimeRead",
-      "Value": {
-        "Expression": "GetChannelForName.id",
-        "CompiledExpression": "={0}",
-        "Type": "Compiled:String"
-      },
-      "ValueType": "Linx.CSharpExpression"
-    },
-    {
       "Id": "ParameterNameMapping",
       "Type": "Compiled:System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "ValueUsage": "DesignTime",
@@ -21,6 +10,26 @@
         "TrlP": "SectionText"
       },
       "ValueType": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "Id": "Process",
+      "Type": "Compiled:Twenty57.Linx.Interfaces.StandardComponent.IProcessReference, Twenty57.Linx.Interfaces.StandardComponent, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "Id": "9d58",
+        "Name": "Demo.PostMessageToSlack",
+        "Parameters": "Generated:L1KC",
+        "Result": "Compiled:String",
+        "IsValid": true,
+        "QualifiedPath": "FL:Demo→PC:PostMessageToSlack"
+      },
+      "ValueType": "Twenty57.Linx.Domain.ProcessReference, Twenty57.Linx.Domain, Version=6.0.5.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "Id": "QOJT",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": "This is a header"
     },
     {
       "Id": "TrlP",
@@ -34,24 +43,15 @@
       "ValueType": "Linx.CSharpExpression"
     },
     {
-      "Id": "QOJT",
+      "Id": "V3wf",
       "Type": "Compiled:String",
       "ValueUsage": "RuntimeRead",
-      "Value": "This is a header"
-    },
-    {
-      "Id": "Process",
-      "Type": "Compiled:Twenty57.Linx.Interfaces.StandardComponent.IProcessReference, Twenty57.Linx.Interfaces.StandardComponent, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "ValueUsage": "DesignTime",
       "Value": {
-        "Id": "9d58",
-        "Name": "Demo.PostMessageToSlack",
-        "Parameters": "Generated:L1KC",
-        "Result": "Compiled:String",
-        "IsValid": true,
-        "QualifiedPath": "FL:Demo→PC:PostMessageToSlack"
+        "Expression": "GetChannelForName.id",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
       },
-      "ValueType": "Twenty57.Linx.Domain.ProcessReference, Twenty57.Linx.Domain, Version=6.0.3.0, Culture=neutral, PublicKeyToken=null"
+      "ValueType": "Linx.CSharpExpression"
     }
   ],
   "Result": "Compiled:String"
