@@ -1,32 +1,10 @@
 {
-  "ExecutionPaths": [
-    {
-      "PluginId": "ForEachLine",
-      "Name": "ForEachLine",
-      "Result": "Generated:1M2q",
-      "Order": 0,
-      "IterationHint": "ZeroOrMore"
-    }
-  ],
   "Properties": [
     {
       "Id": "Encoding",
-      "Type": "Compiled:Twenty57.Linx.Plugins.File.Common.FileReadWrite.Encoding, Twenty57.Linx.Plugins.File, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+      "Type": "Compiled:Twenty57.Linx.Plugins.File.Common.FileReadWrite.Encoding, Twenty57.Linx.Plugins.File, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null",
       "ValueUsage": "DesignTime",
       "Value": "Default"
-    },
-    {
-      "Id": "Fields",
-      "Type": "Compiled:Twenty57.Linx.Plugins.File.TextFileRead.TextFileReaderFields, Twenty57.Linx.Plugins.File, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
-      "ValueUsage": "DesignTime",
-      "Value": {
-        "SkipHeaderLines": 0,
-        "SkipFooterLines": 0,
-        "FileFormat": "CommaDelimited",
-        "TextQualifier": "None",
-        "OtherDelimiter": "",
-        "FieldList": []
-      }
     },
     {
       "Id": "File path",
@@ -36,9 +14,11 @@
     },
     {
       "Id": "Return options",
-      "Type": "Compiled:Twenty57.Linx.Plugins.File.TextFileRead.FileReadOptions, Twenty57.Linx.Plugins.File, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null",
+      "Type": "Compiled:Twenty57.Linx.Plugins.File.TextFileRead.FileReadOptions, Twenty57.Linx.Plugins.File, Version=1.0.5.0, Culture=neutral, PublicKeyToken=null",
       "ValueUsage": "DesignTime",
-      "Value": "LineByLine"
+      "Value": "Complete"
     }
-  ]
+  ],
+  "Result": "Compiled:String",
+  "Version": "1"
 }
