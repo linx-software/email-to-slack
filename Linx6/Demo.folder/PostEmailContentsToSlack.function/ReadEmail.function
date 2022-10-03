@@ -1,13 +1,4 @@
 {
-  "ExecutionPaths": [
-    {
-      "PluginId": "Mail",
-      "Name": "Mail",
-      "Result": "List:Generated:kQ9P",
-      "Order": 0,
-      "IterationHint": "ZeroOrMore"
-    }
-  ],
   "Properties": [
     {
       "Id": "Attachment options",
@@ -150,6 +141,16 @@
         "Type": "Compiled:String"
       },
       "ValueType": "Linx.CSharpExpression"
+    }
+  ],
+  "ExecutionPaths": [
+    {
+      "PluginId": "Mail",
+      "Name": "Mail",
+      "Result": "List:Generated:kQ9P",
+      "Order": 0,
+      "IterationHint": "ZeroOrMore",
+      "ConstitutesControlFlow": true
     }
   ]
 }
