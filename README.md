@@ -6,7 +6,7 @@ The provided sample includes:
 - Get a bot user token in Slack
 - Get a list of channels in a Slack Team
 - Post formatted messages to Slack in different channels using Bot User. 
-- Post email notifications from Gmail to Slack as messages. The sample Solution sends out emails' summary in formatted messages to Slack from your configured Gmail account. You can post messages to any channel you want to alert containing the information concerning the mails you want to pass on.
+- Post email notifications from Gmail to Slack as messages. The sample Solution sends out emails' summary in formatted messages to Slack from your configured Gmail account. You can post mails`contents as messages to any channel you want.
 
 This sample shows how Linx automatically reads emails from GMail and post formatted messages to Slack.
 Once this Slack integration is active, the sample posts messages to Slack Channel. 
