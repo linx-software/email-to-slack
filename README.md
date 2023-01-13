@@ -32,7 +32,7 @@ Once this Slack integration is active, the sample posts messages to Slack Channe
 
 ### Linx Designer
 
-This solution was developed in the Linx Designer `v5.21.0.0`
+This solution was developed in the Linx Designer `v5.21.0.0` and  `v6.4.1`
 
 ---
 
