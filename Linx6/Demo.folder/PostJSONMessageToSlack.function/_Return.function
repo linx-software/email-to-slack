@@ -1,0 +1,7 @@
+{
+  "Properties": [],
+  "RuntimeCharacteristics": {
+    "IsTerminating": true,
+    "ExecutionPathExecution": "ZeroOrMore"
+  }
+}
