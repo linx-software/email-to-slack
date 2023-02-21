@@ -1,0 +1,26 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "List:Custom:LyBy",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "CallRESTEndpoint.ResponseBody.channels",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:LyBy"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "List:Custom:LyBy",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "_Result.Channels",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:LyBy"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

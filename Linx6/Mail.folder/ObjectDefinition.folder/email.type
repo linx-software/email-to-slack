@@ -1,0 +1,41 @@
+{
+  "Id": "yULT",
+  "Name": "email",
+  "Properties": [
+    {
+      "Id": "1uAj",
+      "Name": "From",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "IVIe",
+      "Name": "FromAddress",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "EwgH",
+      "Name": "To",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "bjFo",
+      "Name": "Subject",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "oAfD",
+      "Name": "Body",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "aaSQ",
+      "Name": "FilePath",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "3scg",
+      "Name": "TimeSent",
+      "Type": "Compiled:DateTime"
+    }
+  ]
+}

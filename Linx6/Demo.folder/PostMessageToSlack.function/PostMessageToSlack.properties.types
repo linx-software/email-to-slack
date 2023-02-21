@@ -2,23 +2,23 @@
   {
     "Type": "Generated",
     "Value": {
-      "Id": "L1KC",
+      "Id": "8C1r",
       "Properties": [
         {
-          "Id": "V3wf",
-          "Name": "ChannelId",
-          "Type": "Compiled:String",
-          "Access": "ReadWrite"
-        },
-        {
-          "Id": "QOJT",
+          "Id": "U5e2",
           "Name": "HeaderText",
           "Type": "Compiled:String",
           "Access": "ReadWrite"
         },
         {
-          "Id": "TrlP",
+          "Id": "SwEV",
           "Name": "SectionText",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "YAfQ",
+          "Name": "ChannelId",
           "Type": "Compiled:String",
           "Access": "ReadWrite"
         }

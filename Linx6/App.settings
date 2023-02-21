@@ -1,38 +1,32 @@
 [
   {
-    "Id": "7KqO",
-    "Name": "GmailPassword",
+    "Id": "7tlO",
+    "Name": "SlackBotUserOAuth",
     "Type": "Compiled:String",
     "Secret": true
   },
   {
-    "Id": "dN6Y",
-    "Name": "GmailUserName",
-    "Type": "Compiled:String",
-    "Value": ""
-  },
-  {
-    "Id": "MGZj",
-    "Name": "JSONSampleFile",
-    "Type": "Compiled:String",
-    "Value": "{RootPath}JSONSample.txt"
-  },
-  {
-    "Id": "cRJp",
-    "Name": "SlackBotUserOAuth",
-    "Type": "Compiled:String",
-    "Value": ""
-  },
-  {
-    "Id": "wB8q",
+    "Id": "PSyt",
     "Name": "SlackUri",
     "Type": "Compiled:String",
     "Value": "https://slack.com/api/"
   },
   {
-    "Id": "P7eM",
-    "Name": "RootPath",
+    "Id": "GwC6",
+    "Name": "JSONSampleFile",
     "Type": "Compiled:String",
-    "Value": "C:\\temp\\slack\\"
+    "Value": "C:\\Work\\slack\\JSONSample.txt"
+  },
+  {
+    "Id": "oEnT",
+    "Name": "GmailPassword",
+    "Type": "Compiled:String",
+    "Value": ""
+  },
+  {
+    "Id": "L31N",
+    "Name": "GmailUserName",
+    "Type": "Compiled:String",
+    "Value": ""
   }
 ]

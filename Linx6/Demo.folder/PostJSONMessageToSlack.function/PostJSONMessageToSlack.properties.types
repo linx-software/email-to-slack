@@ -2,10 +2,10 @@
   {
     "Type": "Generated",
     "Value": {
-      "Id": "rMXo",
+      "Id": "5EmQ",
       "Properties": [
         {
-          "Id": "c5Vn",
+          "Id": "2NEM",
           "Name": "ChannelId",
           "Type": "Compiled:String",
           "Access": "ReadWrite"

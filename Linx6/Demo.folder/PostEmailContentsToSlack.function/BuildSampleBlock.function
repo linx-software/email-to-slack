@@ -1,34 +1,18 @@
 {
   "Properties": [
     {
-      "Id": "dt23",
+      "Id": "8S15",
       "Type": "Compiled:String",
       "ValueUsage": "RuntimeRead",
-      "Value": {
-        "Expression": "email.FromAddress",
-        "CompiledExpression": "={0}",
-        "Type": "Compiled:String"
-      },
-      "ValueType": "Linx.CSharpExpression"
-    },
-    {
-      "Id": "N8Ta",
-      "Type": "Compiled:String",
-      "ValueUsage": "RuntimeRead",
-      "Value": {
-        "Expression": "email.Subject",
-        "CompiledExpression": "={0}",
-        "Type": "Compiled:String"
-      },
-      "ValueType": "Linx.CSharpExpression"
+      "Value": null
     },
     {
       "Id": "ParameterNameMapping",
       "Type": "Compiled:System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "ValueUsage": "DesignTime",
       "Value": {
-        "N8Ta": "HeaderText",
-        "dt23": "SectionText"
+        "wbna": "HeaderText",
+        "8S15": "SectionText"
       },
       "ValueType": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
@@ -37,15 +21,21 @@
       "Type": "Compiled:Linx.IProcessReference",
       "ValueUsage": "DesignTime",
       "Value": {
-        "Id": "SCFV",
-        "Name": "Utilities.BuildSampleBlock",
-        "Parameters": "Generated:sxZS",
-        "Result": "Compiled:String",
+        "Id": "cAQ1",
+        "Name": "Slack.Slack.Utilities.BuildSampleBlock",
+        "Parameters": "Generated:CPgF",
+        "Result": "Custom:Lw3N",
         "IsValid": true,
-        "QualifiedPath": "FL:Utilities→PC:BuildSampleBlock"
+        "QualifiedPath": "FL:Slack→FL:Slack→FL:Utilities→PC:BuildSampleBlock"
       },
       "ValueType": "Linx.ProcessReference"
+    },
+    {
+      "Id": "wbna",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": null
     }
   ],
-  "Result": "Compiled:String"
+  "Result": "Custom:Lw3N"
 }

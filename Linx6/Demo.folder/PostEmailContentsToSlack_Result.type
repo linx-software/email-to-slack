@@ -1,0 +1,11 @@
+{
+  "Id": "Ei8F",
+  "Name": "PostEmailContentsToSlack_Result",
+  "Properties": [
+    {
+      "Id": "Y2Vf",
+      "Name": "message",
+      "Type": "Compiled:String"
+    }
+  ]
+}

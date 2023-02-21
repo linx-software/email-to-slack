@@ -10,7 +10,12 @@
       "Id": "File path",
       "Type": "Compiled:String",
       "ValueUsage": "RuntimeRead",
-      "Value": ""
+      "Value": {
+        "Expression": "$.Settings.JSONSampleFile",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
     },
     {
       "Id": "Return options",

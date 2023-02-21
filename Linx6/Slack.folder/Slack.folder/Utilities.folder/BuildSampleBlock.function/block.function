@@ -1,0 +1,19 @@
+{
+  "Properties": [
+    {
+      "Id": "Type",
+      "Type": "Compiled:Linx.ITypeReference",
+      "ValueUsage": "DesignTime",
+      "Value": "Custom:M6Rq",
+      "ValueType": "Linx.ValidCustomTypeReference"
+    },
+    {
+      "Id": "Value",
+      "Type": "Custom:M6Rq",
+      "ValueUsage": "RuntimeRead",
+      "Value": "",
+      "ValueType": "String"
+    }
+  ],
+  "Result": "Custom:M6Rq"
+}

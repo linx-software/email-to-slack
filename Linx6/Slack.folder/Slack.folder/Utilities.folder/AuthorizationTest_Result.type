@@ -1,0 +1,11 @@
+{
+  "Id": "HL4u",
+  "Name": "AuthorizationTest_Result",
+  "Properties": [
+    {
+      "Id": "tQja",
+      "Name": "message",
+      "Type": "Compiled:String"
+    }
+  ]
+}

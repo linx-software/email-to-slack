@@ -1,5 +1,17 @@
 {
-  "Properties": [],
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Custom:EPAm",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "_Result",
+        "CompiledExpression": "={0}",
+        "Type": "Custom:EPAm"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ],
   "RuntimeCharacteristics": {
     "IsTerminating": true,
     "ExecutionPathExecution": "ZeroOrMore"

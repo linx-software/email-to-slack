@@ -1,5 +1,17 @@
 {
-  "Properties": [],
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Custom:Ei8F",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "_Result",
+        "CompiledExpression": "={0}",
+        "Type": "Custom:Ei8F"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ],
   "RuntimeCharacteristics": {
     "IsTerminating": true,
     "ExecutionPathExecution": "ZeroOrMore"

@@ -1,0 +1,21 @@
+{
+  "Id": "v49k",
+  "Name": "channelType",
+  "Properties": [
+    {
+      "Id": "xpV6",
+      "Name": "value",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "43HU",
+      "Name": "creator",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "ajiv",
+      "Name": "last_set",
+      "Type": "Compiled:Int64"
+    }
+  ]
+}

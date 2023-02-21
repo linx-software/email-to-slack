@@ -1,0 +1,11 @@
+{
+  "Id": "APek",
+  "Name": "responseMetadata",
+  "Properties": [
+    {
+      "Id": "oL28",
+      "Name": "next_cursor",
+      "Type": "Compiled:String"
+    }
+  ]
+}

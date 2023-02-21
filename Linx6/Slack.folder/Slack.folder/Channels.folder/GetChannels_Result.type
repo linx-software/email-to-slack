@@ -1,0 +1,11 @@
+{
+  "Id": "8EIo",
+  "Name": "GetChannels_Result",
+  "Properties": [
+    {
+      "Id": "Ns3S",
+      "Name": "Channels",
+      "Type": "List:Custom:LyBy"
+    }
+  ]
+}

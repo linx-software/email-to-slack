@@ -4,90 +4,20 @@
       "Id": "Type",
       "Type": "Compiled:Linx.ITypeReference",
       "ValueUsage": "DesignTime",
-      "Value": "Custom:Blz1",
+      "Value": "Custom:yULT",
       "ValueType": "Linx.ValidCustomTypeReference"
     },
     {
       "Id": "Value",
-      "Type": "Custom:Blz1",
+      "Type": "Custom:yULT",
       "ValueUsage": "RuntimeRead",
       "Value": {
-        "ParsedExpression": "{\"Body\":{\"LinxExpression\":\"[PARSED]\"}, \"FilePath\":{\"LinxExpression\":\"[PARSED]\"}, \"From\":{\"LinxExpression\":\"[PARSED]\"}, \"FromAddress\":{\"LinxExpression\":\"[PARSED]\"}, \"Subject\":{\"LinxExpression\":\"[PARSED]\"}, \"TimeSent\":{\"LinxExpression\":\"[PARSED]\"}, \"To\":{\"LinxExpression\":\"[PARSED]\"}}",
-        "ExpressionPlaceholders": [
-          {
-            "typePath": [
-              "Body"
-            ],
-            "expression": {
-              "Expression": "ReadEmail.Mail.Body",
-              "CompiledExpression": "={0}",
-              "Type": "Compiled:String"
-            }
-          },
-          {
-            "typePath": [
-              "FilePath"
-            ],
-            "expression": {
-              "Expression": "ReadEmail.Mail.FilePath",
-              "CompiledExpression": "={0}",
-              "Type": "Compiled:String"
-            }
-          },
-          {
-            "typePath": [
-              "From"
-            ],
-            "expression": {
-              "Expression": "ReadEmail.Mail.From",
-              "CompiledExpression": "={0}",
-              "Type": "Compiled:String"
-            }
-          },
-          {
-            "typePath": [
-              "FromAddress"
-            ],
-            "expression": {
-              "Expression": "ReadEmail.Mail.FromAddress",
-              "CompiledExpression": "={0}",
-              "Type": "Compiled:String"
-            }
-          },
-          {
-            "typePath": [
-              "Subject"
-            ],
-            "expression": {
-              "Expression": "ReadEmail.Mail.Subject",
-              "CompiledExpression": "={0}",
-              "Type": "Compiled:String"
-            }
-          },
-          {
-            "typePath": [
-              "TimeSent"
-            ],
-            "expression": {
-              "Expression": "ReadEmail.Mail.TimeSent",
-              "CompiledExpression": "={0}",
-              "Type": "Compiled:DateTime"
-            }
-          },
-          {
-            "typePath": [
-              "To"
-            ],
-            "expression": {
-              "Expression": "ReadEmail.Mail.To",
-              "CompiledExpression": "={0}",
-              "Type": "Compiled:String"
-            }
-          }
-        ]
+        "Expression": "ReadEmail.Mail",
+        "CompiledExpression": "={0}",
+        "Type": "Generated:um5c"
       },
-      "ValueType": "Linx.JsonExpression"
+      "ValueType": "Linx.CSharpExpression"
     }
   ],
-  "Result": "Custom:Blz1"
+  "Result": "Custom:yULT"
 }

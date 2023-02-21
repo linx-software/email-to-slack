@@ -1,11 +1,19 @@
 {
   "Properties": [
     {
+      "Id": "Type",
+      "Type": "Compiled:Linx.ITypeReference",
+      "ValueUsage": "DesignTime",
+      "Value": "Custom:Ei8F",
+      "ValueType": "Linx.ValidCustomTypeReference"
+    },
+    {
       "Id": "Value",
-      "Type": "Compiled:String",
+      "Type": "Custom:Ei8F",
       "ValueUsage": "RuntimeRead",
-      "Value": ""
+      "Value": "{}",
+      "ValueType": "String"
     }
   ],
-  "Result": "Compiled:String"
+  "Result": "Custom:Ei8F"
 }

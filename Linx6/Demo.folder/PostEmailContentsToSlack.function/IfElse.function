@@ -6,8 +6,8 @@
       "ValueUsage": "DesignTime",
       "Value": [
         {
-          "ExecutionPathId": "c26Z",
-          "Name": "emailFound"
+          "ExecutionPathId": "MailFound",
+          "Name": "MailFound"
         }
       ]
     },
@@ -37,8 +37,8 @@
   ],
   "ExecutionPaths": [
     {
-      "PluginId": "c26Z",
-      "Name": "emailFound",
+      "PluginId": "MailFound",
+      "Name": "MailFound",
       "Result": null,
       "Order": 0,
       "IterationHint": "ZeroOrOnce",

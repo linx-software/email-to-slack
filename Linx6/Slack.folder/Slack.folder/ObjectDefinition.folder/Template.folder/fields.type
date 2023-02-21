@@ -1,0 +1,16 @@
+{
+  "Id": "Ly1w",
+  "Name": "fields",
+  "Properties": [
+    {
+      "Id": "zpXU",
+      "Name": "type",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "wYy2",
+      "Name": "text",
+      "Type": "Custom:znS5"
+    }
+  ]
+}

@@ -1,11 +1,22 @@
 {
   "Properties": [
     {
-      "Id": "NY5b",
+      "Id": "9GJW",
       "Type": "Compiled:String",
       "ValueUsage": "RuntimeRead",
       "Value": {
-        "Expression": "BuildSampleBlock",
+        "Expression": "$.Parameters.ChannelId",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "FfK0",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "BuildSampleBlock.blocks",
         "CompiledExpression": "={0}",
         "Type": "Compiled:String"
       },
@@ -16,8 +27,8 @@
       "Type": "Compiled:System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "ValueUsage": "DesignTime",
       "Value": {
-        "NY5b": "blocks",
-        "sYE4": "ChannelId"
+        "FfK0": "blocks",
+        "9GJW": "ChannelId"
       },
       "ValueType": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
@@ -26,26 +37,15 @@
       "Type": "Compiled:Linx.IProcessReference",
       "ValueUsage": "DesignTime",
       "Value": {
-        "Id": "lUum",
-        "Name": "Utilities.PostMessageAPI",
-        "Parameters": "Generated:2FvD",
-        "Result": "Compiled:String",
+        "Id": "4KLb",
+        "Name": "Slack.Slack.Utilities.PostMessageAPI",
+        "Parameters": "Generated:0EX6",
+        "Result": "Custom:0Bts",
         "IsValid": true,
-        "QualifiedPath": "FL:Utilities→PC:PostMessageAPI"
+        "QualifiedPath": "FL:Slack→FL:Slack→FL:Utilities→PC:PostMessageAPI"
       },
       "ValueType": "Linx.ProcessReference"
-    },
-    {
-      "Id": "sYE4",
-      "Type": "Compiled:String",
-      "ValueUsage": "RuntimeRead",
-      "Value": {
-        "Expression": "$.Parameters.ChannelId",
-        "CompiledExpression": "={0}",
-        "Type": "Compiled:String"
-      },
-      "ValueType": "Linx.CSharpExpression"
     }
   ],
-  "Result": "Compiled:String"
+  "Result": "Custom:0Bts"
 }

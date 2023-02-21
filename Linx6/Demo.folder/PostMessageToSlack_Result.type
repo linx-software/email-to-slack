@@ -1,0 +1,11 @@
+{
+  "Id": "doPy",
+  "Name": "PostMessageToSlack_Result",
+  "Properties": [
+    {
+      "Id": "8A82",
+      "Name": "message",
+      "Type": "Compiled:String"
+    }
+  ]
+}

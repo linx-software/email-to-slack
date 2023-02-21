@@ -1,0 +1,11 @@
+{
+  "Id": "M6Rq",
+  "Name": "block",
+  "Properties": [
+    {
+      "Id": "PYfr",
+      "Name": "blocks",
+      "Type": "List:Custom:Ly1w"
+    }
+  ]
+}

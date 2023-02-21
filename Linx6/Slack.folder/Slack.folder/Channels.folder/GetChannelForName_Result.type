@@ -1,0 +1,11 @@
+{
+  "Id": "oaBs",
+  "Name": "GetChannelForName_Result",
+  "Properties": [
+    {
+      "Id": "DrWk",
+      "Name": "Channel",
+      "Type": "Custom:LyBy"
+    }
+  ]
+}

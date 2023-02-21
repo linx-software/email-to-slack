@@ -1,0 +1,21 @@
+{
+  "Id": "wKFg",
+  "Name": "headerText",
+  "Properties": [
+    {
+      "Id": "9UT7",
+      "Name": "type",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "M7ye",
+      "Name": "text",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "lnvW",
+      "Name": "emoji",
+      "Type": "Compiled:Boolean"
+    }
+  ]
+}

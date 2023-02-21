@@ -1,0 +1,11 @@
+{
+  "Id": "0Bts",
+  "Name": "PostMessageAPI_Result",
+  "Properties": [
+    {
+      "Id": "8DdW",
+      "Name": "message",
+      "Type": "Compiled:String"
+    }
+  ]
+}

@@ -5,9 +5,9 @@
       "Type": "Compiled:System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "ValueUsage": "DesignTime",
       "Value": {
-        "V3wf": "ChannelId",
-        "QOJT": "HeaderText",
-        "TrlP": "SectionText"
+        "U5e2": "HeaderText",
+        "SwEV": "SectionText",
+        "YAfQ": "ChannelId"
       },
       "ValueType": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
@@ -16,43 +16,43 @@
       "Type": "Compiled:Linx.IProcessReference",
       "ValueUsage": "DesignTime",
       "Value": {
-        "Id": "9d58",
+        "Id": "OzMt",
         "Name": "Demo.PostMessageToSlack",
-        "Parameters": "Generated:L1KC",
-        "Result": "Compiled:String",
+        "Parameters": "Generated:8C1r",
+        "Result": "Custom:doPy",
         "IsValid": true,
         "QualifiedPath": "FL:Demo→PC:PostMessageToSlack"
       },
       "ValueType": "Linx.ProcessReference"
     },
     {
-      "Id": "QOJT",
-      "Type": "Compiled:String",
-      "ValueUsage": "RuntimeRead",
-      "Value": "This is a header"
-    },
-    {
-      "Id": "TrlP",
+      "Id": "SwEV",
       "Type": "Compiled:String",
       "ValueUsage": "RuntimeRead",
       "Value": {
-        "Expression": "\"This is a chat message for \" +  GetChannelForName.name",
+        "Expression": "\"This is a chat message for \" +  GetChannelForName.Channel.name",
         "CompiledExpression": "=\"This is a chat message for \"+{0}",
         "Type": "Compiled:String"
       },
       "ValueType": "Linx.CSharpExpression"
     },
     {
-      "Id": "V3wf",
+      "Id": "U5e2",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": "This is a header"
+    },
+    {
+      "Id": "YAfQ",
       "Type": "Compiled:String",
       "ValueUsage": "RuntimeRead",
       "Value": {
-        "Expression": "GetChannelForName.id",
+        "Expression": "GetChannelForName.Channel.id",
         "CompiledExpression": "={0}",
         "Type": "Compiled:String"
       },
       "ValueType": "Linx.CSharpExpression"
     }
   ],
-  "Result": "Compiled:String"
+  "Result": "Custom:doPy"
 }

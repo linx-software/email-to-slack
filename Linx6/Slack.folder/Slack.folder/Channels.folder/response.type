@@ -1,0 +1,21 @@
+{
+  "Id": "2e3A",
+  "Name": "response",
+  "Properties": [
+    {
+      "Id": "BeEG",
+      "Name": "ok",
+      "Type": "Compiled:Boolean"
+    },
+    {
+      "Id": "E9Nb",
+      "Name": "channels",
+      "Type": "List:Custom:LyBy"
+    },
+    {
+      "Id": "XD8o",
+      "Name": "response_metadata",
+      "Type": "Custom:APek"
+    }
+  ]
+}

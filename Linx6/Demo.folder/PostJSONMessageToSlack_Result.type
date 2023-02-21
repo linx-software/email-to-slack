@@ -1,0 +1,11 @@
+{
+  "Id": "EPAm",
+  "Name": "PostJSONMessageToSlack_Result",
+  "Properties": [
+    {
+      "Id": "iOaC",
+      "Name": "message",
+      "Type": "Compiled:String"
+    }
+  ]
+}

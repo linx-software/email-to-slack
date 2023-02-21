@@ -40,7 +40,7 @@
       "Id": "Filter from",
       "Type": "Compiled:String",
       "ValueUsage": "RuntimeRead",
-      "Value": ""
+      "Value": null
     },
     {
       "Id": "Filter from address",
@@ -147,7 +147,7 @@
     {
       "PluginId": "Mail",
       "Name": "Mail",
-      "Result": "List:Generated:kQ9P",
+      "Result": "List:Generated:um5c",
       "Order": 0,
       "IterationHint": "ZeroOrMore",
       "ConstitutesControlFlow": true

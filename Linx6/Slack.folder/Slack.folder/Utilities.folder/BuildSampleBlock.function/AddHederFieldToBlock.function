@@ -1,0 +1,26 @@
+{
+  "Properties": [
+    {
+      "Id": "List",
+      "Type": "List:Custom:Ly1w",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "block.blocks",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:Ly1w"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Value",
+      "Type": "Custom:Ly1w",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "HeaderField",
+        "CompiledExpression": "={0}",
+        "Type": "Custom:Ly1w"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

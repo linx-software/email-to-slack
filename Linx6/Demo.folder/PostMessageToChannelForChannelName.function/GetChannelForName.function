@@ -1,17 +1,17 @@
 {
   "Properties": [
     {
-      "Id": "gg7f",
+      "Id": "eC6Q",
       "Type": "Compiled:String",
       "ValueUsage": "RuntimeRead",
-      "Value": "General"
+      "Value": "general"
     },
     {
       "Id": "ParameterNameMapping",
       "Type": "Compiled:System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
       "ValueUsage": "DesignTime",
       "Value": {
-        "gg7f": "ChannelNameNormalized"
+        "eC6Q": "ChannelNameNormalized"
       },
       "ValueType": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
@@ -20,15 +20,15 @@
       "Type": "Compiled:Linx.IProcessReference",
       "ValueUsage": "DesignTime",
       "Value": {
-        "Id": "zKGS",
-        "Name": "Slack.Channels.GetChannelForName",
-        "Parameters": "Generated:Jxkn",
-        "Result": "Custom:0Yfv",
+        "Id": "FF8F",
+        "Name": "Slack.Slack.Channels.GetChannelForName",
+        "Parameters": "Generated:1cx6",
+        "Result": "Custom:oaBs",
         "IsValid": true,
-        "QualifiedPath": "FL:Slack→FL:Channels→PC:GetChannelForName"
+        "QualifiedPath": "FL:Slack→FL:Slack→FL:Channels→PC:GetChannelForName"
       },
       "ValueType": "Linx.ProcessReference"
     }
   ],
-  "Result": "Custom:0Yfv"
+  "Result": "Custom:oaBs"
 }
